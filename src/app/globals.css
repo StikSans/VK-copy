@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply text-[#fff] bg-[#141414] h-screen;
+}
+.wrapper {
+    @apply flex;
+}

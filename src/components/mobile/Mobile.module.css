@@ -1,0 +1,3 @@
+.mobile {
+    @apply w-[624px] mt-[18px] bg-[#222] rounded-[15px]
+}

@@ -1,0 +1,35 @@
+.accounts {
+    @apply  mt-[18px] w-[624px]
+}
+
+.wrapper {
+    @apply p-[24px] bg-[#222] rounded-[15px]
+}
+.title {
+    @apply text-[20px] font-bold
+}
+.description {
+    @apply mt-[6px] text-[14px] mb-[32px] text-[#626d7a]
+}
+.list {
+    @apply flex gap-[16px]
+}
+.item {
+    @apply py-[28px] px-[36px] border border-[#333] rounded-[15px] select-none
+}
+.item > div {
+    @apply w-[80px] h-[80px] rounded-[100px] bg-[#333] mx-auto
+}
+.item > p {
+    @apply  font-bold text-[15px] w-[110px] text-center mt-[16px]
+}
+
+.item:last-child {
+    @apply py-[28px] px-[36px] border border-[#333] border-dashed rounded-[15px]
+}
+.item:last-child > div {
+    @apply w-[80px] h-[80px] mx-auto rounded-[100px] bg-[#333]
+}
+.item:last-child > p {
+    @apply w-[110px] text-[15px] font-normal text-[#626d7a] text-center mt-[16px]
+}

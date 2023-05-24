@@ -1,0 +1,6 @@
+.register {
+    @apply w-[320px] bg-[#222] rounded-[15px] text-center px-[24px] py-[32px] my-[18px]
+}
+.but {
+    @apply py-[5px] bg-[#4BB34B] text-[14px] rounded-[8px]
+}

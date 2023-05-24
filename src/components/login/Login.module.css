@@ -1,0 +1,32 @@
+.name {
+    @apply bg-[#333333] rounded-[5px] border border-[#333] py-[5px] text-[14px] px-[10px]
+}
+.box {
+    @apply my-[12px]  flex items-center gap-[10px]
+}
+.loginBut {
+    @apply bg-[#FFFFFF] text-[#222222] py-[5px] rounded-[8px] text-[14px] mt-[10px]
+}
+.login {
+    @apply w-[320px] my-[18px] px-[24px] py-[32px] bg-[#222] rounded-[15px] text-center
+}
+.logo {
+    @apply mx-auto
+}
+.login_p {
+    @apply my-[16px] font-bold text-[20px]
+}
+.form {
+    @apply flex flex-col pb-[20px];
+    border-bottom: 1px solid #333333;
+
+}
+.label {
+    @apply text-[#828282]
+}
+.qr_code {
+    @apply flex pt-[20px]
+}
+.text_qr_code {
+    @apply mx-auto my-auto
+}
